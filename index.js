@@ -6,7 +6,8 @@ dotenv.config();
 
 
 const PORT = process.env.PORT;
-const BASE_URL = `http://localhost:${PORT}`;
+const BASE_URL = process.env.BASE_URL
+
 
 app.use("/music", express.static("public/music"));
 app.use("/images", express.static("public/images"));
