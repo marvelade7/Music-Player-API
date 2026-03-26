@@ -5,8 +5,8 @@ const dotenv = require("dotenv");
 dotenv.config();
 
 
-const PORT = process.env.PORT;
-const BASE_URL = process.env.BASE_URL || `http://localhost:${PORT}`
+const PORT = process.env.PORT || 1213;
+const BASE_URL = process.env.BASE_URL || 'http://localhost:1213';
 
 
 app.use("/music", express.static("public/music"));
