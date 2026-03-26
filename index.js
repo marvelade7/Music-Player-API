@@ -78,7 +78,7 @@ const music = [
         genre: "Inspirational",
         duration: "1:07",
         image: `${BASE_URL}/images/joy-in-chaos.jpg`,
-        audio: `${BASE_URL}/music/Joy_In_Chaos.mp3`,
+        audio: `${BASE_URL}/music/Joy_in_Chaos.mp3`,
     },
     {
         id: 9,
@@ -93,7 +93,7 @@ const music = [
         name: "Miracle No Dey Tire Jesus",
         artist: "Moses Bliss ft Festizie & Chizie",
         duration: "4:20",
-        image: `${BASE_URL}/images/miracle-no-dey-tire.jpg`,
+        image: `${BASE_URL}/images/miracle-no-dey-tire-jesus.jpg`,
         audio: `${BASE_URL}/music/Miracle_No_Dey_Tire_Jesus.mp3`,
     },
     {
@@ -200,7 +200,7 @@ const music = [
         artist: "Greatman Takit",
         duration: "4:30",
         image: `${BASE_URL}/images/sound-of-rain.jpg`,
-        audio: `${BASE_URL}/music/Sound_of_Rain.mp3`,
+        audio: `${BASE_URL}/music/Sound_Of_Rain.mp3`,
     },
     
     {
@@ -294,3 +294,4 @@ app.get("/api/music/:id", (req, res) => {
 app.listen(PORT, () => {
     console.log(`I am running on port ${PORT}`);
 });
+
